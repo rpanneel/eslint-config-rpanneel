@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-rpanneel",
+  "version": "0.0.1",
+  "description": "ESLint config for UI5",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpanneel/eslint-config-rpanneel.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "author": "Robin Panneels",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  }
+}
